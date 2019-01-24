@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+    <defs>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g transform="translate(0 32)">
+        <rect fill="#8bc34a" fill-rule="evenodd" width="38" height="38" x="5" y="-27" filter="url(#a)" rx="2" ry="2"/>
+        <path fill="#f1f8e9" fill-rule="evenodd" stroke="#f1f8e9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12-2a12 12 0 0 1 12-12A12 12 0 0 1 36-2H24z"/>
+        <path fill="none" stroke="#f1f8e9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17-11l-3-5"/>
+        <circle fill="#8bc34a" fill-rule="evenodd" cx="18" cy="-7" r="2"/>
+        <path fill="none" stroke="#f1f8e9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M31-11l3-5"/>
+        <circle fill="#8bc34a" fill-rule="evenodd" cx="30" cy="-7" r="2"/>
+    </g>
+</svg>

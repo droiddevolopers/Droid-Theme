@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+    <defs>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <rect ry="2" rx="2" y="5" x="5" height="38" width="38" fill="#673ab7" fill-rule="evenodd" filter="url(#a)"/>
+    <path d="M43 36H24m19-4H24" fill="#d1c4e9" stroke="#d1c4e9" stroke-width="2"/>
+    <path d="M24 32a8 8 0 0 1-7.518-5.264 8 8 0 0 1 2.376-8.864 8 8 0 0 1 9.142-.8" fill="none" stroke="#d1c4e9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M24 36a12 12 0 0 1-10.392-6 12 12 0 0 1 0-12A12 12 0 0 1 24 12" fill="none" stroke="#d1c4e9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M43 28H24" fill="#d1c4e9" stroke="#d1c4e9" stroke-width="2"/>
+    <path d="M24 28a4 4 0 0 1-3.94-3.305 4 4 0 0 1 2.572-4.454A4 4 0 0 1 27.464 22" fill="none" stroke="#d1c4e9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
